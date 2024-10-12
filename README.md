@@ -1,7 +1,20 @@
 Netlify deploment link : https://sassdashboard.netlify.app/
 
-note : the above site disigned for larger screen,  for better view open the link in 1440px screen
+note : 
+1) the above site disigned for larger screen,  for better view open the link in 1440px screen.
+2) click on Order section in middle of the page to nvigate to orders transactions page.
+   <img width="395" alt="Screenshot 2024-10-12 at 5 30 13 PM" src="https://github.com/user-attachments/assets/c9cebc48-53b3-4334-8256-7ef51e7e0738">
+
+3) click on the brightness icon in header to change the mode from light to dark and vice versa
+<img width="287" alt="Screenshot 2024-10-12 at 5 32 47 PM" src="https://github.com/user-attachments/assets/c44c4a53-f3cd-412a-a315-bda7cc4ec21f">
+
+-- light mode output --
 <img width="1454" alt="Screenshot 2024-10-12 at 5 25 58 PM" src="https://github.com/user-attachments/assets/69126ff9-4cfd-46b9-9417-baa0debf95de">
+<img width="1431" alt="Screenshot 2024-10-12 at 5 34 06 PM" src="https://github.com/user-attachments/assets/31ae546d-8c82-4b7f-bfa1-cb3566091202">
+
+-- dark mode output -- 
+<img width="1438" alt="Screenshot 2024-10-12 at 5 35 20 PM" src="https://github.com/user-attachments/assets/c1609c9e-fe6a-41ea-b603-bb48d985e480">
+<img width="1442" alt="Screenshot 2024-10-12 at 5 35 41 PM" src="https://github.com/user-attachments/assets/bf286898-5048-48ba-84b3-71e6d1fdc271">
 
 -- Table of Contents --
 
