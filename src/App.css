@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+.darkModecustumBG{
+  background-color: #262424;
+ 
+}
+.darkModeCustumTextColor{
+  color:#404040;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

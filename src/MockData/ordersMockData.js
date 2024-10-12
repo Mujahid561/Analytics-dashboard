@@ -1,0 +1,12 @@
+export const orders = [
+    { id: '#CM9801', user: 'Natali Craig', project: 'Landing Page', address: 'Meadow Lane Oakland', date: 'Just now', status: 'In Progress', statusColor: 'text-blue-500', img:"https://i.pravatar.cc/32?u=NataliCraig" },
+    { id: '#CM9802', user: 'Kate Morrison', project: 'CRM Admin pages', address: 'Larry San Francisco', date: 'A minute ago', status: 'Complete', statusColor: 'text-green-500', img:"https://i.pravatar.cc/32?u=DrewCano" },
+    { id: '#CM9803', user: 'Drew Cano', project: 'Client Project', address: 'Bagwell Avenue Ocala', date: '1 hour ago', status: 'Pending', statusColor: 'text-blue-400',img:"https://i.pravatar.cc/32?u=AndiLane" },
+    { id: '#CM9804', user: 'Orlando Diggs', project: 'Admin Dashboard', address: 'Washburn Baton Rouge', date: 'Yesterday', status: 'Approved', statusColor: 'text-yellow-500', img:"https://i.pravatar.cc/32?u=KateMorrison" },
+    { id: '#CM9805', user: 'Andi Lane', project: 'App Landing Page', address: 'Nest Lane Olivette', date: 'Feb 2, 2023', status: 'Rejected', statusColor: 'text-gray-500',img:"https://i.pravatar.cc/32?u=KorayOkumus" },
+    { id: '#CM9801', user: 'Natali Craig', project: 'Landing Page', address: 'Meadow Lane Oakland', date: 'Just now', status: 'In Progress', statusColor: 'text-blue-500',img:"https://i.pravatar.cc/32?u=DrewCano" },
+    { id: '#CM9802', user: 'Kate Morrison', project: 'CRM Admin pages', address: 'Larry San Francisco', date: 'A minute ago', status: 'Complete', statusColor: 'text-green-500',img:"https://i.pravatar.cc/32?u=NataliCraig" },
+    { id: '#CM9803', user: 'Drew Cano', project: 'Client Project', address: 'Bagwell Avenue Ocala', date: '1 hour ago', status: 'Pending', statusColor: 'text-blue-400',img:"https://i.pravatar.cc/32?u=KateMorrison" },
+    { id: '#CM9804', user: 'Orlando Diggs', project: 'Admin Dashboard', address: 'Washburn Baton Rouge', date: 'Yesterday', status: 'Approved', statusColor: 'text-yellow-500',img:"https://i.pravatar.cc/32?u=KorayOkumus" },
+    { id: '#CM9805', user: 'Andi Lane', project: 'App Landing Page', address: 'Nest Lane Olivette', date: 'Feb 2, 2023', status: 'Rejected', statusColor: 'text-gray-500',img:"https://i.pravatar.cc/32?u=AndiLane" },
+  ];
