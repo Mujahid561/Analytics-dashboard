@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { SearchBar } from './SearchBar'; // Adjust the import path as necessary
+import { SearchBar } from './SearchBar'; 
 import "@testing-library/jest-dom";
 
 describe('SearchBar Component', () => {
@@ -9,14 +9,14 @@ describe('SearchBar Component', () => {
     
     const searchBar = screen.getByPlaceholderText(/search/i);
     
-    // Check if the input is rendered
+    
     expect(searchBar).toBeInTheDocument();
 
-    // Check styles for light mode and transparent background
+    
    
     expect(searchBar).toHaveClass('text-black bg-transparent');
 
-    // Check the icon classes
+    
    
     expect(screen.queryByRole('img', { hidden: true })).toBeNull();
   });
@@ -28,11 +28,11 @@ describe('SearchBar Component', () => {
 
     const searchBar = screen.getByPlaceholderText(/search/i);
     
-    // Check styles for dark mode and transparent background
+    
   
     expect(searchBar).toHaveClass('bg-black text-white');
 
-    // Check the icon classes
+    
 
     expect(screen.queryByRole('img', { hidden: true })).toBeNull();
   });

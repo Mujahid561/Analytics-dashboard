@@ -1,21 +1,21 @@
 import React from 'react';
-import { render, screen} from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { useSelector } from 'react-redux';
-import OrdersData from './OrdersData'; // Adjust the import path as necessary
+import OrdersData from './OrdersData';
 import { orders } from '../../MockData/ordersMockData';
 import "@testing-library/jest-dom";
 
-// Mocking the necessary hooks
+
 jest.mock('react-redux');
 
 describe('OrdersData Component', () => {
   beforeEach(() => {
-    // Reset the mock before each test
+
     jest.clearAllMocks();
   });
 
   test('renders the order list header', () => {
-    // Mock the selector to return light mode
+
     useSelector.mockReturnValue({
       dataReducer: {
         darkMode: false,
@@ -28,7 +28,7 @@ describe('OrdersData Component', () => {
   });
 
   test('renders the action buttons', () => {
-    // Mock the selector to return light mode
+
     useSelector.mockReturnValue({
       dataReducer: {
         darkMode: false,
@@ -43,7 +43,7 @@ describe('OrdersData Component', () => {
   });
 
   test('renders correct number of order rows', () => {
-    // Mock the selector to return light mode
+
     useSelector.mockReturnValue({
       dataReducer: {
         darkMode: false,
@@ -52,15 +52,15 @@ describe('OrdersData Component', () => {
 
     render(<OrdersData />);
 
-    // Ensure that the number of rendered rows matches the orders array length
+
     const rows = screen.getAllByRole('row');
-    expect(rows.length).toBe(orders.length + 1); // +1 for the header row
+    expect(rows.length).toBe(orders.length + 1);
   });
 
- 
+
 
   test('applies correct styles for dark mode', () => {
-    // Mock the selector to return dark mode
+
     useSelector.mockReturnValue({
       dataReducer: {
         darkMode: true,
@@ -73,7 +73,7 @@ describe('OrdersData Component', () => {
     expect(table).toHaveClass('text-white bg-black');
   });
 
- 
 
- 
+
+
 });

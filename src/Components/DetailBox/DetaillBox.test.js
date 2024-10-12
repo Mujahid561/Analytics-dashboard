@@ -17,7 +17,7 @@ describe("DetailBox Component", () => {
   test("renders with default props", () => {
     render(<DetailBox data={mockData} darkMode={false} index={0} />);
 
-    // Check for header
+
     expect(screen.getByRole("button")).toHaveAccessibleName(
       "Detail box for Revenue"
     );
@@ -30,7 +30,7 @@ describe("DetailBox Component", () => {
     render(<DetailBox data={mockData} darkMode={false} index={0} />);
     const detailBox = screen.getByRole("button");
 
-    // Verify background color is the light mode color
+
     expect(detailBox).toHaveStyle({ backgroundColor: "#fff" });
   });
 
@@ -38,7 +38,7 @@ describe("DetailBox Component", () => {
     render(<DetailBox data={mockData} darkMode={true} index={0} />);
     const detailBox = screen.getByRole("button");
 
-    // Verify background color is the dark mode color
+
     expect(detailBox).toHaveStyle({ backgroundColor: "#333" });
   });
 
