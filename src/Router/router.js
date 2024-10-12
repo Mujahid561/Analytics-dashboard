@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Overview from '../Components/Overview/Overview';
 import Ecommerce from '../Pages/Ecommerce';
 import Projects from '../Pages/Projects';
-import UserProfile from '../Pages/OnlineCourse';
+
 import Followers from '../Pages/Followers';
 import Layout from './Layout'; 
 import OrdersData from '../Components/OrdersData/OrdersData';
