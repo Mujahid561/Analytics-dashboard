@@ -1,6 +1,7 @@
 Netlify deploment link : https://sassdashboard.netlify.app/
 
 note : the above site disigned for larger screen,  for better view open the link in 1440px screen
+<img width="1454" alt="Screenshot 2024-10-12 at 5 25 58 PM" src="https://github.com/user-attachments/assets/69126ff9-4cfd-46b9-9417-baa0debf95de">
 
 -- Table of Contents --
 
