@@ -29,35 +29,35 @@ Before you begin, ensure you have Node.js installed on your machine.
 
 <!-- Clone the repository: -->
 
-git clone https://github.com/Mujahid561/Analytics-dashboard.git
-cd proj
+" git clone https://github.com/Mujahid561/Analytics-dashboard.git "
+" cd proj "
 
 <!-- Install the dependencies: -->
 
 Make sure you are in the project directory.
 Run the following command to install all required packages:
 
-npm install
+" npm install "
 
 <!-- Running the Project -->
 
 To start the development server, use the following command:
 
-npm start
+" npm start "
 Your app will be available at http://localhost:3000 in your web browser.
 
 <!-- Testing -->
 
 To run the tests for your application, use:
 
-npm test
+" npm test "
 This command will launch Jest and run all test cases defined in your project.
 
 <!-- Building for Production -->
 
 To create an optimized production build, run:
 
-npm run build
+" npm run build "
 This will generate a build folder containing a minified version of your app for deployment.
 
 <!-- Ejecting the App -->
